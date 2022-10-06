@@ -38,6 +38,7 @@ img.perfume-mobile {
   font-family: 'Fraunces', Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   font-size: 2rem; /* 32px */
+  margin: auto;
 }
 
 footer {
