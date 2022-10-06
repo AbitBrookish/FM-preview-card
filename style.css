@@ -46,8 +46,70 @@ img.perfume-mobile {
   font-size: 14px;
   font-weight: 500;
   color: #6c7289d1;
-  line-height: 26px;
+  line-height: 24px;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
+
+.cta {
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 2fr); */
+  /* grid-template-rows: 48px 48px fit-content(3rem); */
+  /* grid-template-areas: 'dis-price init-price' */
+                       /* 'cta-button cta-button'; */
+}
+
+.cta-price {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cta__discount-price {
+  font-family: 'Fraunces', Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+  color: #3c8067;
+  margin: 0;
+}
+
+.cta__initial-price {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6c7289d1;
+  margin: 0;
+  text-decoration: line-through;
+  padding-left: 20px;
+}
+
+.cta-button {
+  margin: 0 auto;
+  min-height: 48px;
+}
+
+#add-to-cart img {
+  padding-right: 12px;
+}
+
+button {
+  border: none;
+  background: #3c8067;
+  margin-top: 6px;
+  min-width: 295px;
+  min-height: 48px;
+  border-radius: 8px;
+}
+
+button#add-to-cart {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+
+
 
 footer {
   display: none;
