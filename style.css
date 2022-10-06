@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
 body {
@@ -23,6 +23,15 @@ img.perfume-mobile {
 
 .info-box {
   margin: 1.625rem 1.5rem; /* 26px 24px */
+}
+
+.info-box__type h3 {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  color: #6c7289;
+  text-transform: uppercase;
+  letter-spacing: 6px;
 }
 
 footer {
