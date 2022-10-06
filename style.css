@@ -10,7 +10,7 @@ body {
 
 .product-box {
   margin: 1.75rem 1rem;
-  min-height: 612px;
+  min-height: 38.25rem; /* 612px */
   background: #fff;
   border-radius: 8px;
 }
@@ -27,11 +27,17 @@ img.perfume-mobile {
 
 .info-box__type h3 {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem; /* 12px */
   font-weight: 200;
   color: #6c7289;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 0.375rem; /* 6px */
+}
+
+.info-box__label h1 {
+  font-family: 'Fraunces', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 2rem; /* 32px */
 }
 
 footer {
