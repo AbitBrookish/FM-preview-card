@@ -99,18 +99,33 @@ button {
   min-width: 295px;
   min-height: 48px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 button#add-to-cart {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
-  color: #fff;
 }
 
-
-
+button:hover,
+button:active {
+  background: #19362b;
+}
 
 footer {
   display: none;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: #3e52a3; 
 }
