@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #f2ebe3;
+}
+
+.product-box {
+  margin: 1.75rem 1rem;
+  min-height: 612px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+img.perfume-mobile {
+  max-width: 21.4375rem; /* 343px */ 
+  border-top-left-radius: 0.5rem; /* 8px */
+  border-top-right-radius: 0.5rem; /* 8px */
+}
+
+footer {
+  display: none;
+}
