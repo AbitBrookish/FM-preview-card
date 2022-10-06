@@ -41,6 +41,14 @@ img.perfume-mobile {
   margin: auto;
 }
 
+.info-box__description p {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c7289d1;
+  line-height: 26px;
+}
+
 footer {
   display: none;
 }
