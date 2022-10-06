@@ -51,14 +51,6 @@ img.perfume-mobile {
   margin-bottom: 8px;
 }
 
-.cta {
-  /* display: grid; */
-  /* grid-template-columns: repeat(2, 2fr); */
-  /* grid-template-rows: 48px 48px fit-content(3rem); */
-  /* grid-template-areas: 'dis-price init-price' */
-                       /* 'cta-button cta-button'; */
-}
-
 .cta-price {
   display: flex;
   justify-content: start;
