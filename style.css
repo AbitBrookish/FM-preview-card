@@ -21,6 +21,10 @@ img.perfume-mobile {
   border-top-right-radius: 0.5rem; /* 8px */
 }
 
+.info-box {
+  margin: 1.625rem 1.5rem; /* 26px 24px */
+}
+
 footer {
   display: none;
 }
