@@ -14,34 +14,45 @@
 <body>
   <div class="product-box">
       <div class="product-image">
-        <img src="/images/image-product-mobile.jpg" alt="Gabrielle Essence perfume bottle" class="perfume-mobile">
-        <img src="/images/image-product-desktop.jpg" alt="Gabrielle Essence perfume bottle" class="perfume-desktop" hidden>
+        <img 
+          srcset="/images/image-product-mobile.jpg 686w" 
+          sizes="(max-width: 400px) 640px"
+          alt="Gabrielle Essence perfume bottle"
+          class="perfume-mobile" />
+        
+        <img
+          srcset="/images/image-product-desktop.jpg 600w"
+          sizes="(max-width: 1440px) 1440px"
+          alt="Gabrielle Essence perfume bottle"
+          class="perfume-desktop" />
       </div>
-    
-      <section class="info-box">
-        <div class="info-box__type">
-            <h3>Perfume</h3>
-        </div>
-        <div class="info-box__label">
-            <h1>Gabrielle Essence Eau De Parfum</h1>
-        </div>
-        <div class="info-box__description">
-            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-            Perfumer-Creator for the House of CHANEL.</p>
-        </div>
       
-      <section class="cta">
-        <div class="cta-price">
-          <h1 class="cta__discount-price">$149.99</h1>
-          <p class="cta__initial-price">$169.99</p>
-        </div>
-        <div class="cta-button">
-          <button id="add-to-cart">
-            <a href="#"><img src="/images/icon-cart.svg" class="cart">Add to Cart</a>
-          </button>
-        </div>
-      </section>
-    </section>
+      <div class="text-card">
+        <section class="info-box">
+            <div class="info-box__type">
+                <h3>Perfume</h3>
+            </div>
+            <div class="info-box__label">
+                <h1>Gabrielle Essence Eau De Parfum</h1>
+            </div>
+            <div class="info-box__description">
+                <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                Perfumer-Creator for the House of CHANEL.</p>
+            </div>
+          
+          <section class="cta">
+            <div class="cta-price">
+              <h1 class="cta__discount-price">$149.99</h1>
+              <p class="cta__initial-price">$169.99</p>
+            </div>
+            <div class="cta-button">
+              <button id="add-to-cart">
+                <a href="#"><img src="/images/icon-cart.svg" class="cart">Add to Cart</a>
+              </button>
+            </div>
+          </section>
+        </section>
+      </div>
   </div>
   
   <footer>
